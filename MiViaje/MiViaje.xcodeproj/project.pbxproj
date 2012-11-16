@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE558AC71655BE980088EF03 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE558AC61655BE980088EF03 /* UIKit.framework */; };
+		AE558AC91655BE980088EF03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE558AC81655BE980088EF03 /* Foundation.framework */; };
+		AE558ACB1655BE980088EF03 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE558ACA1655BE980088EF03 /* CoreGraphics.framework */; };
+		AE558AD11655BE980088EF03 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE558ACF1655BE980088EF03 /* InfoPlist.strings */; };
+		AE558AD31655BE980088EF03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE558AD21655BE980088EF03 /* main.m */; };
+		AE558AD71655BE980088EF03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE558AD61655BE980088EF03 /* AppDelegate.m */; };
+		AE558ADA1655BE980088EF03 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE558AD81655BE980088EF03 /* MainStoryboard.storyboard */; };
+		AE558ADD1655BE980088EF03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE558ADC1655BE980088EF03 /* ViewController.m */; };
+		AE5E24391655C95D00834F87 /* DefaultBG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE5E24371655C95D00834F87 /* DefaultBG.jpg */; };
+		AE5E243A1655C95D00834F87 /* LoginBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = AE5E24381655C95D00834F87 /* LoginBtn.png */; };
+		AE95EE621655CAF1008743B0 /* Logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = AE95EE601655CAF1008743B0 /* Logo1.png */; };
+		AE95EE631655CAF1008743B0 /* Logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = AE95EE611655CAF1008743B0 /* Logo2.png */; };
+		AEF3C39C1655C5A200DEF4C1 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AEF3C39B1655C5A200DEF4C1 /* Logo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE558AC21655BE980088EF03 /* MiViaje.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiViaje.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE558AC61655BE980088EF03 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AE558AC81655BE980088EF03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AE558ACA1655BE980088EF03 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AE558ACE1655BE980088EF03 /* MiViaje-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MiViaje-Info.plist"; sourceTree = "<group>"; };
+		AE558AD01655BE980088EF03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE558AD21655BE980088EF03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE558AD41655BE980088EF03 /* MiViaje-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MiViaje-Prefix.pch"; sourceTree = "<group>"; };
+		AE558AD51655BE980088EF03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE558AD61655BE980088EF03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE558AD91655BE980088EF03 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		AE558ADB1655BE980088EF03 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE558ADC1655BE980088EF03 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE5E24371655C95D00834F87 /* DefaultBG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DefaultBG.jpg; sourceTree = "<group>"; };
+		AE5E24381655C95D00834F87 /* LoginBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LoginBtn.png; sourceTree = "<group>"; };
+		AE95EE601655CAF1008743B0 /* Logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo1.png; sourceTree = "<group>"; };
+		AE95EE611655CAF1008743B0 /* Logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo2.png; sourceTree = "<group>"; };
+		AEF3C39B1655C5A200DEF4C1 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE558ABF1655BE970088EF03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE558AC71655BE980088EF03 /* UIKit.framework in Frameworks */,
+				AE558AC91655BE980088EF03 /* Foundation.framework in Frameworks */,
+				AE558ACB1655BE980088EF03 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE558AB71655BE970088EF03 = {
+			isa = PBXGroup;
+			children = (
+				AE558ACC1655BE980088EF03 /* MiViaje */,
+				AE558AC51655BE980088EF03 /* Frameworks */,
+				AE558AC31655BE980088EF03 /* Products */,
+				AEF3C39A1655C5A200DEF4C1 /* Images */,
+			);
+			sourceTree = "<group>";
+		};
+		AE558AC31655BE980088EF03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE558AC21655BE980088EF03 /* MiViaje.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE558AC51655BE980088EF03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE558AC61655BE980088EF03 /* UIKit.framework */,
+				AE558AC81655BE980088EF03 /* Foundation.framework */,
+				AE558ACA1655BE980088EF03 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE558ACC1655BE980088EF03 /* MiViaje */ = {
+			isa = PBXGroup;
+			children = (
+				AE558AD51655BE980088EF03 /* AppDelegate.h */,
+				AE558AD61655BE980088EF03 /* AppDelegate.m */,
+				AE558AD81655BE980088EF03 /* MainStoryboard.storyboard */,
+				AE558ADB1655BE980088EF03 /* ViewController.h */,
+				AE558ADC1655BE980088EF03 /* ViewController.m */,
+				AE558ACD1655BE980088EF03 /* Supporting Files */,
+			);
+			path = MiViaje;
+			sourceTree = "<group>";
+		};
+		AE558ACD1655BE980088EF03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE558ACE1655BE980088EF03 /* MiViaje-Info.plist */,
+				AE558ACF1655BE980088EF03 /* InfoPlist.strings */,
+				AE558AD21655BE980088EF03 /* main.m */,
+				AE558AD41655BE980088EF03 /* MiViaje-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEF3C39A1655C5A200DEF4C1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AE95EE601655CAF1008743B0 /* Logo1.png */,
+				AE95EE611655CAF1008743B0 /* Logo2.png */,
+				AE5E24371655C95D00834F87 /* DefaultBG.jpg */,
+				AE5E24381655C95D00834F87 /* LoginBtn.png */,
+				AEF3C39B1655C5A200DEF4C1 /* Logo.png */,
+			);
+			name = Images;
+			path = MiViaje/Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE558AC11655BE970088EF03 /* MiViaje */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE558AE01655BE980088EF03 /* Build configuration list for PBXNativeTarget "MiViaje" */;
+			buildPhases = (
+				AE558ABE1655BE970088EF03 /* Sources */,
+				AE558ABF1655BE970088EF03 /* Frameworks */,
+				AE558AC01655BE970088EF03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiViaje;
+			productName = MiViaje;
+			productReference = AE558AC21655BE980088EF03 /* MiViaje.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE558AB91655BE970088EF03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Raph Enderez";
+			};
+			buildConfigurationList = AE558ABC1655BE970088EF03 /* Build configuration list for PBXProject "MiViaje" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AE558AB71655BE970088EF03;
+			productRefGroup = AE558AC31655BE980088EF03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE558AC11655BE970088EF03 /* MiViaje */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE558AC01655BE970088EF03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE558AD11655BE980088EF03 /* InfoPlist.strings in Resources */,
+				AE558ADA1655BE980088EF03 /* MainStoryboard.storyboard in Resources */,
+				AEF3C39C1655C5A200DEF4C1 /* Logo.png in Resources */,
+				AE5E24391655C95D00834F87 /* DefaultBG.jpg in Resources */,
+				AE5E243A1655C95D00834F87 /* LoginBtn.png in Resources */,
+				AE95EE621655CAF1008743B0 /* Logo1.png in Resources */,
+				AE95EE631655CAF1008743B0 /* Logo2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE558ABE1655BE970088EF03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE558AD31655BE980088EF03 /* main.m in Sources */,
+				AE558AD71655BE980088EF03 /* AppDelegate.m in Sources */,
+				AE558ADD1655BE980088EF03 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE558ACF1655BE980088EF03 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE558AD01655BE980088EF03 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AE558AD81655BE980088EF03 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE558AD91655BE980088EF03 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE558ADE1655BE980088EF03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AE558ADF1655BE980088EF03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE558AE11655BE980088EF03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MiViaje/MiViaje-Prefix.pch";
+				INFOPLIST_FILE = "MiViaje/MiViaje-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AE558AE21655BE980088EF03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MiViaje/MiViaje-Prefix.pch";
+				INFOPLIST_FILE = "MiViaje/MiViaje-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE558ABC1655BE970088EF03 /* Build configuration list for PBXProject "MiViaje" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE558ADE1655BE980088EF03 /* Debug */,
+				AE558ADF1655BE980088EF03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE558AE01655BE980088EF03 /* Build configuration list for PBXNativeTarget "MiViaje" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE558AE11655BE980088EF03 /* Debug */,
+				AE558AE21655BE980088EF03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE558AB91655BE970088EF03 /* Project object */;
+}
